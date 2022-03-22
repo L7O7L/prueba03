@@ -1,6 +1,6 @@
 html{
 
-    box-sizing: border-box;
+    box-sizing: none;
 
 }
 
@@ -58,6 +58,13 @@ html{
 }
 
 @media (min-width: 321px) and (max-width: 375.5px) {
+    
+    body{
+
+        max-width: 425px;
+        min-width: 321px;
+
+    }
 
     #teclado01 {
 
@@ -68,6 +75,7 @@ html{
     #teclado02 {
 
         display: block;
+        width: 100%;
 
     }
 
