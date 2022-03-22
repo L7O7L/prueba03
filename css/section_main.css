@@ -112,6 +112,13 @@ html{
 }
 
 @media (min-width: 376px) and (max-width: 425.6px) {
+    
+    body{
+
+        max-width: 425.6px;
+        min-width: 376px;
+
+    }
 
     #teclado01 {
 
@@ -128,6 +135,7 @@ html{
     #teclado03 {
 
         display: block;
+        width: 100%;
 
     }
 
