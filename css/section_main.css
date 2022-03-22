@@ -1,7 +1,8 @@
 html{
 
     box-sizing: none;
-
+    scrollbar-width: none;
+    overflow: hidden;
 }
 
 @media (max-width: 320px) {
